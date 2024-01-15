@@ -205,3 +205,45 @@ input[type='submit'] {
 /* destination section styles end */
 
 /* service section styles start */
+.service-content {
+  margin-top: 100px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.hotel-service {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  grid-area: hotel;
+}
+.world-class-service {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  grid-area: map;
+}
+.best-price-service {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  grid-area: price;
+}
+.service-card {
+  display: grid;
+  gap: 24px;
+  grid-template-areas:
+    'hotel hotel map map'
+    '.     price price   .';
+}
+.service-card h4 {
+  padding: 32px 0 16px 0;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.service-content p {
+  padding-top: 24px;
+}
