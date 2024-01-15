@@ -25,8 +25,8 @@
     gap: 16px;
     margin: auto;
   }
-  input[type='text'],
-  input[type='submit'],
+  .banner input[type='text'],
+  .banner input[type='submit'],
   select {
     width: 255px;
     height: 52px;
@@ -63,5 +63,29 @@
       'hotel'
       'price'
       'map';
+  }
+  .newsletter {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .newsletter-img img {
+    width: 335px;
+    height: 300px;
+  }
+  .newsletter-img span {
+    width: 214.023px;
+    height: 79.268px;
+  }
+  .newsletter-img h4 {
+    color: #fff;
+    font-size: 21.138px;
+    font-weight: 800;
+  }
+  .newsletter-img p {
+    color: #fff;
+    font-size: 15.854px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 2.46px;
   }
 }
