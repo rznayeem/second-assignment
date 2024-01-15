@@ -116,3 +116,87 @@ input[type='submit'] {
 .popular-tour-content ul li {
   margin: 16px;
 }
+.destination-content {
+  text-align: center;
+}
+.destination-content p {
+  padding: 24px 0 48px 0;
+}
+.destination-box {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  border-radius: 16px;
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  );
+  background-blend-mode: multiply;
+}
+#box-1 {
+  background-image: url('../Images/maldives.png');
+  background-size: cover;
+  background-position: center;
+}
+#box-2 {
+  background-image: url('../Images/indonesia.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#box-1,
+#box-2 {
+  grid-column: span 6;
+  height: 300px;
+  /* width: 573px; */
+}
+#box-3 {
+  grid-column: span 4;
+  height: 286px;
+  /* width: 374px; */
+  background-image: url('../Images/srilanka.png');
+  background-size: cover;
+  background-position: center;
+}
+#box-4 {
+  grid-column: span 5;
+  height: 286px;
+  /* width: 474px; */
+  background-image: url('../Images/north-america.png');
+  background-size: cover;
+  background-position: center;
+}
+#box-5 {
+  grid-column: span 3;
+  height: 286px;
+  /* width: 274px; */
+  background-image: url('../Images/kashmir-responsive.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#box-6 {
+  grid-column: span 5;
+  height: 300px;
+  /* width: 473px; */
+  background-image: url('../Images/bangladesh.png');
+  background-size: cover;
+  background-position: center;
+}
+#box-7 {
+  grid-column: span 7;
+  height: 300px;
+  /* width: 673px; */
+  background-image: url('../Images/bandarban.png');
+  background-size: cover;
+  background-position: center;
+}

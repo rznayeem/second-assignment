@@ -42,5 +42,20 @@
     color: #131318;
     font-size: 20px;
     font-weight: 800;
+    margin-top: 24px;
+  }
+  .destination-box {
+    grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-column: auto;
+  }
+  .box {
+    max-width: 335px;
+    max-height: 176px;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
   }
 }
