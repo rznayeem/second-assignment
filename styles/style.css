@@ -116,6 +116,8 @@ input[type='submit'] {
 .popular-tour-content ul li {
   margin: 16px;
 }
+
+/* destination section styles start */
 .destination-content {
   text-align: center;
 }
@@ -200,3 +202,6 @@ input[type='submit'] {
   background-size: cover;
   background-position: center;
 }
+/* destination section styles end */
+
+/* service section styles start */
