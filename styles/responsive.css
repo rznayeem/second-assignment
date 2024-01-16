@@ -39,7 +39,10 @@
     gap: 16px;
     margin: auto;
   }
-  .banner input[type='text'],
+  .banner input[type='text'] {
+    width: 239px;
+    height: 52px;
+  }
   .banner input[type='submit'],
   select {
     width: 255px;
