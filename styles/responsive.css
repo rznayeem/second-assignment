@@ -34,7 +34,6 @@
   .banner-form {
     display: flex;
     flex-direction: column;
-    /* width: 287px; */
     padding: 16px;
     align-items: center;
     gap: 16px;
@@ -95,6 +94,7 @@
   .newsletter-img span {
     width: 214.023px;
     height: 79.268px;
+    bottom: 35px;
   }
   .newsletter-img h4 {
     color: #fff;
