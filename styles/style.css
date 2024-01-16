@@ -323,3 +323,47 @@ select {
   font-size: 32px;
   font-weight: 800;
 }
+.newsletter-form hr {
+  margin: 24px auto;
+  background: rgba(19, 19, 24, 0.1);
+  height: 1px;
+  border: none;
+}
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  padding: 110px 284px;
+}
+.footer-content h1 {
+  color: #ff5400;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.footer-content h1 i {
+  margin-right: 16px;
+}
+.footer-content h1 span {
+  color: #131318;
+}
+.footer-content p {
+  margin-bottom: 32px;
+}
+.footer-icons i {
+  margin-right: 24px;
+  font-size: 24px;
+}
+.footer-icons {
+  margin-bottom: 50px;
+}
+.footer-text {
+  margin-top: 50px;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-content hr {
+  background: rgba(19, 19, 24, 0.05);
+  height: 1px;
+  border: none;
+}

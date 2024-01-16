@@ -64,6 +64,11 @@
       'price'
       'map';
   }
+  .service-content {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
   .newsletter {
     flex-direction: column;
     margin-top: 24px;
@@ -87,5 +92,9 @@
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 2.46px;
+  }
+  footer {
+    padding: 30px;
+    margin-top: 24px;
   }
 }
