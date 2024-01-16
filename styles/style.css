@@ -39,6 +39,42 @@
   font-weight: 800;
 }
 
+/* nav styles start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+nav h1 {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+nav span {
+  color: #131318;
+}
+nav h1 i {
+  margin-right: 17px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  margin-left: 44px;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.home {
+  color: #ff5400;
+  font-weight: 700;
+}
+
+/* nav styles end */
 /* banner style start */
 .banner {
   text-align: center;
