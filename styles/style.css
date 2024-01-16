@@ -32,6 +32,10 @@
   font-size: 20px;
   font-weight: 800;
 }
+.primary-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+}
 .secondary-header {
   padding: 32px 0 16px 0;
   color: #131318;
@@ -68,6 +72,9 @@ nav li a {
   color: #424247;
   font-size: 18px;
   font-weight: 400;
+}
+nav span {
+  display: none;
 }
 .home {
   color: #ff5400;
@@ -132,9 +139,15 @@ select {
   font-size: 1rem;
   font-weight: 700;
 }
+
+.banner input[type='submit']:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+}
 .input-icon {
   position: relative;
 }
+
 .input-icon i {
   position: absolute;
   left: 25px;
@@ -303,9 +316,21 @@ select {
   height: 476px; */
   overflow: hidden;
   box-sizing: border-box;
-  border-radius: 5px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 16px;
   background: #fff;
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+.card-container:hover {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.1) 0%,
+    rgba(19, 19, 24, 0.1) 10%
+  );
+  background-blend-mode: multiply;
+  cursor: pointer;
 }
 .hotel-room-content {
   padding: 24px;
@@ -326,8 +351,11 @@ select {
 .card-container h4 {
   padding-top: 16px;
 }
+.hotel-room-title h3 {
+  margin-bottom: 24px;
+}
 
-/* hotel rooms section styles start */
+/* hotel rooms section styles end */
 
 /* newsletter section style start */
 .newsletter {
@@ -374,6 +402,14 @@ select {
   font-weight: 800;
   border: none;
   padding: 15px 0;
+  transition: 0.3s;
+}
+.newsletter-form input[type='submit']:hover {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background: rgba(233, 68, 68, 1.1);
+  color: #fff;
+  /* padding: 14px 0; */
 }
 .newsletter-img {
   position: relative;

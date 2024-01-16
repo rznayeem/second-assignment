@@ -3,6 +3,21 @@
     width: 335px;
     margin: 0 auto;
   }
+  nav > ul {
+    display: none;
+  }
+  nav h1 {
+    font-size: 21.543px;
+    justify-content: flex-start;
+  }
+  nav h1 i {
+    margin-right: 10px;
+  }
+  nav span {
+    display: inline;
+    justify-content: flex-end;
+    font-size: 24px;
+  }
   .banner {
     padding: 32px 16px;
     text-align: center;
@@ -96,5 +111,8 @@
   footer {
     padding: 30px;
     margin-top: 24px;
+  }
+  .hotel-rooms-card {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
